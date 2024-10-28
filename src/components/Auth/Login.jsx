@@ -65,7 +65,7 @@ const Login = ({ handleLogin }) => {
     return (
         <div className="flex h-screen w-screen items-center justify-center bg-gradient-to-br from-blue-100 to-blue-300">
             <div className="w-full max-w-md p-8 bg-white border border-gray-200 rounded-lg shadow-lg transform transition-all duration-500 hover:shadow-xl hover:scale-105">
-                <h2 className="text-3xl font-semibold text-blue-800 mb-8 text-center">Employee Login</h2>
+                <h2 className="text-3xl font-semibold text-blue-800 mb-8 text-center">Employee Management System</h2>
                 <form 
                     onSubmit={(e) => submitHandler(e)}
                     className="flex flex-col items-center"
